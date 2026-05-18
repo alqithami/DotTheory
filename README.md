@@ -59,8 +59,6 @@ The theory is organized around a theorem spine:
 
 ## Build the paper locally
 
-The paper is in [`paper/main.tex`](paper/main.tex), with bibliography in [`paper/references.bib`](paper/references.bib).
-
 From the repository root:
 
 ```bash
@@ -118,9 +116,6 @@ This runs:
 
 | File | Purpose |
 |---|---|
-| [`paper/main.tex`](paper/main.tex) | Canonical LaTeX manuscript source |
-| [`paper/references.bib`](paper/references.bib) | BibTeX bibliography |
-| [`paper/dot_trace_theory_foundation_v0.43.pdf`](paper/dot_trace_theory_foundation_v0.43.pdf) | Compiled PDF check |
 | [`scripts/dot_trace_minimal_simulator_v01.py`](scripts/dot_trace_minimal_simulator_v01.py) | Minimal dot-field simulator |
 | [`scripts/dot_trace_predictive_simulator_v02.py`](scripts/dot_trace_predictive_simulator_v02.py) | Predictive simulator with action-level forecasts |
 | [`scripts/dot_trace_validation_runner_v01.py`](scripts/dot_trace_validation_runner_v01.py) | Condition-grid validation runner |
