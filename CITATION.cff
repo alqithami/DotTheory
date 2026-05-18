@@ -1,0 +1,19 @@
+cff-version: 1.2.0
+message: "If you use this repository, please cite the Dot-Trace Theory manuscript. Replace placeholder author metadata before public release."
+title: "Dot-Trace Theory: A Formal Theory of Agentic Social Memory"
+version: "0.43.0"
+date-released: "2026-05-18"
+authors:
+  - family-names: "Author"
+    given-names: "Name"
+    affiliation: "Affiliation to be added"
+abstract: "Dot-Trace Theory proposes that persistent, socially accessible interaction traces mediate the co-evolution of agent behavior, memory structure, and social topology."
+repository-code: "https://github.com/<owner>/<repository>"
+license: "LicenseRef-Pending"
+preferred-citation:
+  type: manuscript
+  title: "Dot-Trace Theory: A Formal Theory of Agentic Social Memory"
+  authors:
+    - family-names: "Author"
+      given-names: "Name"
+  year: 2026

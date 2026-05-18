@@ -1,0 +1,39 @@
+Current section,Core article,Technical companion,Recommendation
+Introduction,Keep,Reference only,Condense to core representational problem
+Contributions and Scope,Keep,Reference only,Keep concise and remove long enumerations
+Theoretical Scope and Testable Claim,Keep,Reference only,Keep conditional mutual information claim
+Related Work and Positioning,Keep,Extended version,Condense to strongest comparisons
+Notation and State Hierarchy,Keep,Extended notation appendix,Keep central equations
+Core Concept: The Dot,Keep,Extended glossary,Keep dot definition and boundaries
+Dot Centrality Centroids and Social Capital,Summarize,Keep full,Move most social capital decomposition to companion
+Ontology of Dot-Trace Theory,Keep,Extended details,Keep core graph definitions
+Dot Field,Keep,Reference only,Keep central state object
+Types of Dots,Summarize,Keep full,Use a table in core article
+Axioms,Keep selected,Keep full,Core article should keep 5-7 axioms not all extensions
+Formal Dynamics,Keep,Extended details,Condense to main transition
+Integrated Mixed-Mechanism Dynamics,Keep,Keep full,Core article keeps reduced integrated model
+Recursive Topology-Feedback Stability,Keep,Keep full,Core article keeps main stability theorem
+Worked Examples,Keep selected,Keep full,Use 2-3 examples in core article
+Model Assumptions and Proof Obligations,Summarize,Keep full,Core article keeps assumptions table
+Theorem Consolidation,Keep,Keep full,Essential for navigation
+Main Theoretical Results,Keep spine only,Keep full proofs,Core article keeps S1-S6
+Interpretive Synthesis,Keep,Reference only,Helpful transition after theorem section
+Algorithmic Implementation,Summarize,Keep full,Core article one algorithm only
+Minimal Executable Simulator,Summarize,Keep full,Move details to companion
+Simulator Calibration,Summarize,Keep full,Move calibration protocol to companion
+Falsifiability and Failure Modes,Keep,Reference only,Keep concise
+Measurement and Dot-Extraction Protocol,Keep condensed,Keep full,Core article keeps minimum dot test and observability ladder
+Experimental Validation,Keep condensed,Keep full,Core article keeps prediction lift and controls
+Metrics and Measurement,Summarize,Keep full,Core article uses one table
+Empirical Hypotheses,Summarize,Keep full,Core article does not need exhaustive hypotheses
+Simulation Program,Summarize,Keep full,Move simulation suite to companion
+Prediction-Lift Evaluation,Summarize,Keep full,Core article keeps theorem and metric
+Trainable Prediction,Summarize,Keep full,Move implementation details to companion
+Applications,Keep selected,Keep full,Use compact prose
+Differentiation,Keep,Reference only,Keep as part of positioning
+Ethical and Governance,Keep condensed,Keep full,Core article keeps privacy contestability auditability
+Limitations,Keep,Reference only,Keep strong limitations
+Cross-Section Consistency,Summarize,Keep full,Use as companion audit
+Boundary Conditions,Keep,Reference only,Essential for claim discipline
+Conclusion,Keep,Reference only,Rewrite for shorter article
+Glossary,Summarize,Keep full,Core article includes a small notation table only

@@ -1,0 +1,22 @@
+[project]
+name = "dot-trace-theory"
+version = "0.43.0"
+description = "Dot-Trace Theory foundation manuscript, simulators, and validation scripts"
+requires-python = ">=3.9"
+authors = [
+  {name = "Author Name", email = "email@example.com"}
+]
+readme = "README.md"
+license = {text = "License pending"}
+keywords = ["multi-agent systems", "memory", "social networks", "collective memory", "agentic social memory"]
+classifiers = [
+  "Programming Language :: Python :: 3",
+  "Topic :: Scientific/Engineering",
+  "Topic :: Sociology",
+]
+
+[tool.black]
+line-length = 100
+
+[tool.ruff]
+line-length = 100

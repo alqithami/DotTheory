@@ -1,0 +1,532 @@
+{
+  "aggregate": {
+    "correction": {
+      "access_count": {
+        "mean": 526.0,
+        "sd": 17.663521732655695
+      },
+      "active_dots": {
+        "mean": 296.8,
+        "sd": 34.083720454199245
+      },
+      "anchored_dots": {
+        "mean": 0.0,
+        "sd": 0.0
+      },
+      "cooperation_rate": {
+        "mean": 0.6533332000000001,
+        "sd": 0.08137678484186998
+      },
+      "dot_count": {
+        "mean": 296.8,
+        "sd": 34.083720454199245
+      },
+      "event_count": {
+        "mean": 3874.4,
+        "sd": 40.68537820888482
+      },
+      "fragmentation_proxy": {
+        "mean": 0.0255822,
+        "sd": 0.017200620692288983
+      },
+      "mean_trust": {
+        "mean": 0.6195921999999999,
+        "sd": 0.06690933754491969
+      }
+    },
+    "edge_only": {
+      "access_count": {
+        "mean": 150.0,
+        "sd": 0.0
+      },
+      "active_dots": {
+        "mean": 150.0,
+        "sd": 0.0
+      },
+      "anchored_dots": {
+        "mean": 0.0,
+        "sd": 0.0
+      },
+      "cooperation_rate": {
+        "mean": 0.608,
+        "sd": 0.04793525726435607
+      },
+      "dot_count": {
+        "mean": 150.0,
+        "sd": 0.0
+      },
+      "event_count": {
+        "mean": 3275.0,
+        "sd": 0.0
+      },
+      "fragmentation_proxy": {
+        "mean": 0.0801504,
+        "sd": 0.052650499478162596
+      },
+      "mean_trust": {
+        "mean": 0.5001706,
+        "sd": 0.00027283108327313813
+      }
+    },
+    "full_dot_field": {
+      "access_count": {
+        "mean": 794.6,
+        "sd": 21.77842969545784
+      },
+      "active_dots": {
+        "mean": 794.6,
+        "sd": 21.77842969545784
+      },
+      "anchored_dots": {
+        "mean": 50.4,
+        "sd": 13.088162590677118
+      },
+      "cooperation_rate": {
+        "mean": 0.7186667999999999,
+        "sd": 0.024221326691574892
+      },
+      "dot_count": {
+        "mean": 794.6,
+        "sd": 21.77842969545784
+      },
+      "event_count": {
+        "mean": 4564.2,
+        "sd": 43.55685939091568
+      },
+      "fragmentation_proxy": {
+        "mean": 0.0281976,
+        "sd": 0.027236152175004455
+      },
+      "mean_trust": {
+        "mean": 0.7270936,
+        "sd": 0.029576619022464317
+      }
+    },
+    "institutional": {
+      "access_count": {
+        "mean": 347.0,
+        "sd": 19.621416870348583
+      },
+      "active_dots": {
+        "mean": 150.0,
+        "sd": 0.0
+      },
+      "anchored_dots": {
+        "mean": 32.6,
+        "sd": 3.1304951684997055
+      },
+      "cooperation_rate": {
+        "mean": 0.6346666,
+        "sd": 0.03693846534846842
+      },
+      "dot_count": {
+        "mean": 150.0,
+        "sd": 0.0
+      },
+      "event_count": {
+        "mean": 3570.0,
+        "sd": 31.68595903550972
+      },
+      "fragmentation_proxy": {
+        "mean": 0.0527914,
+        "sd": 0.03492597105020847
+      },
+      "mean_trust": {
+        "mean": 0.5912698000000001,
+        "sd": 0.04836519625929374
+      }
+    },
+    "mutation": {
+      "access_count": {
+        "mean": 448.4,
+        "sd": 40.22809963197367
+      },
+      "active_dots": {
+        "mean": 448.4,
+        "sd": 40.22809963197367
+      },
+      "anchored_dots": {
+        "mean": 0.0,
+        "sd": 0.0
+      },
+      "cooperation_rate": {
+        "mean": 0.6413334,
+        "sd": 0.11248697109798984
+      },
+      "dot_count": {
+        "mean": 448.4,
+        "sd": 40.22809963197367
+      },
+      "event_count": {
+        "mean": 3871.8,
+        "sd": 80.45619926394734
+      },
+      "fragmentation_proxy": {
+        "mean": 0.0259996,
+        "sd": 0.02653773203007371
+      },
+      "mean_trust": {
+        "mean": 0.6193656,
+        "sd": 0.114498082441585
+      }
+    },
+    "private_dot": {
+      "access_count": {
+        "mean": 150.0,
+        "sd": 0.0
+      },
+      "active_dots": {
+        "mean": 150.0,
+        "sd": 0.0
+      },
+      "anchored_dots": {
+        "mean": 0.0,
+        "sd": 0.0
+      },
+      "cooperation_rate": {
+        "mean": 0.6426668,
+        "sd": 0.04728169953798196
+      },
+      "dot_count": {
+        "mean": 150.0,
+        "sd": 0.0
+      },
+      "event_count": {
+        "mean": 3275.0,
+        "sd": 0.0
+      },
+      "fragmentation_proxy": {
+        "mean": 0.078919,
+        "sd": 0.08804500469362246
+      },
+      "mean_trust": {
+        "mean": 0.5785804,
+        "sd": 0.026873839980546144
+      }
+    },
+    "social_transmission": {
+      "access_count": {
+        "mean": 352.2,
+        "sd": 15.417522498767433
+      },
+      "active_dots": {
+        "mean": 150.0,
+        "sd": 0.0
+      },
+      "anchored_dots": {
+        "mean": 0.0,
+        "sd": 0.0
+      },
+      "cooperation_rate": {
+        "mean": 0.632,
+        "sd": 0.04975504441260206
+      },
+      "dot_count": {
+        "mean": 150.0,
+        "sd": 0.0
+      },
+      "event_count": {
+        "mean": 3571.8,
+        "sd": 29.626002092756288
+      },
+      "fragmentation_proxy": {
+        "mean": 0.0728868,
+        "sd": 0.04120347749523091
+      },
+      "mean_trust": {
+        "mean": 0.5877026,
+        "sd": 0.03702511241441408
+      }
+    },
+    "topology_feedback_disabled": {
+      "access_count": {
+        "mean": 337.8,
+        "sd": 10.401922899156675
+      },
+      "active_dots": {
+        "mean": 150.0,
+        "sd": 0.0
+      },
+      "anchored_dots": {
+        "mean": 14.4,
+        "sd": 3.5777087639996634
+      },
+      "cooperation_rate": {
+        "mean": 0.628,
+        "sd": 0.038701277614569804
+      },
+      "dot_count": {
+        "mean": 150.0,
+        "sd": 0.0
+      },
+      "event_count": {
+        "mean": 3552.8,
+        "sd": 28.856541719339827
+      },
+      "fragmentation_proxy": {
+        "mean": 0.0169778,
+        "sd": 0.006830422732159409
+      },
+      "mean_trust": {
+        "mean": 0.504165,
+        "sd": 0.006668225738530476
+      }
+    }
+  },
+  "base_config": {
+    "agents": 8,
+    "interactions_per_step": 6,
+    "steps": 25
+  },
+  "condition_overrides": {
+    "correction": {
+      "agents": 8,
+      "correction_enabled": true,
+      "interactions_per_step": 6,
+      "mutation_enabled": false,
+      "p_counter": 0.2,
+      "p_institutional": 0.0,
+      "p_transmit": 0.1,
+      "steps": 25,
+      "top_k": 5
+    },
+    "edge_only": {
+      "agents": 8,
+      "beta_z": 0.0,
+      "correction_enabled": false,
+      "interactions_per_step": 6,
+      "mutation_enabled": false,
+      "p_institutional": 0.0,
+      "p_transmit": 0.0,
+      "steps": 25,
+      "top_k": 0
+    },
+    "full_dot_field": {
+      "agents": 8,
+      "correction_enabled": true,
+      "interactions_per_step": 6,
+      "mutation_enabled": true,
+      "mutation_epsilon": 0.08,
+      "p_counter": 0.15,
+      "p_institutional": 0.15,
+      "p_transmit": 0.12,
+      "steps": 25,
+      "top_k": 5
+    },
+    "institutional": {
+      "agents": 8,
+      "correction_enabled": false,
+      "interactions_per_step": 6,
+      "mutation_enabled": false,
+      "p_institutional": 0.25,
+      "p_transmit": 0.1,
+      "steps": 25,
+      "top_k": 5
+    },
+    "mutation": {
+      "agents": 8,
+      "correction_enabled": false,
+      "interactions_per_step": 6,
+      "mutation_enabled": true,
+      "mutation_epsilon": 0.1,
+      "p_institutional": 0.0,
+      "p_transmit": 0.1,
+      "steps": 25,
+      "top_k": 5
+    },
+    "private_dot": {
+      "agents": 8,
+      "correction_enabled": false,
+      "interactions_per_step": 6,
+      "mutation_enabled": false,
+      "p_institutional": 0.0,
+      "p_transmit": 0.0,
+      "steps": 25,
+      "top_k": 5
+    },
+    "social_transmission": {
+      "agents": 8,
+      "correction_enabled": false,
+      "interactions_per_step": 6,
+      "mutation_enabled": false,
+      "p_institutional": 0.0,
+      "p_transmit": 0.1,
+      "steps": 25,
+      "top_k": 5
+    },
+    "topology_feedback_disabled": {
+      "agents": 8,
+      "correction_enabled": false,
+      "eta_edge": 0.0,
+      "interactions_per_step": 6,
+      "mutation_enabled": false,
+      "p_institutional": 0.1,
+      "p_transmit": 0.1,
+      "steps": 25,
+      "top_k": 5
+    }
+  },
+  "matched_divergence_from_full_dot_field": {
+    "correction": {
+      "access_count": {
+        "mean": 268.6,
+        "sd": 31.269793731331198
+      },
+      "active_dots": {
+        "mean": 497.8,
+        "sd": 45.041092349098285
+      },
+      "cooperation_rate": {
+        "mean": 0.06799999999999999,
+        "sd": 0.07354507310486541
+      },
+      "fragmentation_proxy": {
+        "mean": 0.023947799999999998,
+        "sd": 0.023675709634560057
+      },
+      "mean_trust": {
+        "mean": 0.10750140000000004,
+        "sd": 0.06205503319876641
+      }
+    },
+    "edge_only": {
+      "access_count": {
+        "mean": 644.6,
+        "sd": 21.77842969545784
+      },
+      "active_dots": {
+        "mean": 644.6,
+        "sd": 21.77842969545784
+      },
+      "cooperation_rate": {
+        "mean": 0.11066679999999998,
+        "sd": 0.05707703177023135
+      },
+      "fragmentation_proxy": {
+        "mean": 0.05195279999999999,
+        "sd": 0.06009099341997934
+      },
+      "mean_trust": {
+        "mean": 0.226923,
+        "sd": 0.02944055950555284
+      }
+    },
+    "institutional": {
+      "access_count": {
+        "mean": 447.6,
+        "sd": 9.864076236526156
+      },
+      "active_dots": {
+        "mean": 644.6,
+        "sd": 21.77842969545784
+      },
+      "cooperation_rate": {
+        "mean": 0.08400019999999997,
+        "sd": 0.05304109727560318
+      },
+      "fragmentation_proxy": {
+        "mean": 0.044855400000000004,
+        "sd": 0.02677985775354305
+      },
+      "mean_trust": {
+        "mean": 0.1358238,
+        "sd": 0.06716974005606988
+      }
+    },
+    "mutation": {
+      "access_count": {
+        "mean": 346.2,
+        "sd": 27.179036038829633
+      },
+      "active_dots": {
+        "mean": 346.2,
+        "sd": 27.179036038829633
+      },
+      "cooperation_rate": {
+        "mean": 0.12800019999999995,
+        "sd": 0.05914170741278949
+      },
+      "fragmentation_proxy": {
+        "mean": 0.0277956,
+        "sd": 0.028945224930893177
+      },
+      "mean_trust": {
+        "mean": 0.130426,
+        "sd": 0.10432243246301345
+      }
+    },
+    "private_dot": {
+      "access_count": {
+        "mean": 644.6,
+        "sd": 21.77842969545784
+      },
+      "active_dots": {
+        "mean": 644.6,
+        "sd": 21.77842969545784
+      },
+      "cooperation_rate": {
+        "mean": 0.07599999999999998,
+        "sd": 0.061931853229981765
+      },
+      "fragmentation_proxy": {
+        "mean": 0.0797002,
+        "sd": 0.08554770023033934
+      },
+      "mean_trust": {
+        "mean": 0.14851320000000004,
+        "sd": 0.03782089566231873
+      }
+    },
+    "social_transmission": {
+      "access_count": {
+        "mean": 442.4,
+        "sd": 14.432601983010548
+      },
+      "active_dots": {
+        "mean": 644.6,
+        "sd": 21.77842969545784
+      },
+      "cooperation_rate": {
+        "mean": 0.08666679999999997,
+        "sd": 0.0605530070822251
+      },
+      "fragmentation_proxy": {
+        "mean": 0.0611228,
+        "sd": 0.03481216778225682
+      },
+      "mean_trust": {
+        "mean": 0.139391,
+        "sd": 0.04930484077146989
+      }
+    },
+    "topology_feedback_disabled": {
+      "access_count": {
+        "mean": 456.8,
+        "sd": 20.741263220932325
+      },
+      "active_dots": {
+        "mean": 644.6,
+        "sd": 21.77842969545784
+      },
+      "cooperation_rate": {
+        "mean": 0.09333359999999997,
+        "sd": 0.05077176599548218
+      },
+      "fragmentation_proxy": {
+        "mean": 0.023096600000000002,
+        "sd": 0.02206217702993066
+      },
+      "mean_trust": {
+        "mean": 0.22292859999999998,
+        "sd": 0.026852081433289248
+      }
+    }
+  },
+  "seeds": [
+    1,
+    2,
+    3,
+    4,
+    5
+  ]
+}
