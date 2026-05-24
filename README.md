@@ -6,9 +6,6 @@ This repository contains the current foundation manuscript, LaTeX source, biblio
 
 ## Repository status
 
-Current packaged version: **v0.43.0**  
-Date packaged: **2026-05-18**
-
 This repository is prepared for GitHub use as a comprehensive foundation package. Before public release or formal publication, complete the author metadata, license choice, and venue-specific statements listed in [`docs/publication_metadata_to_complete.md`](docs/publication_metadata_to_complete.md).
 
 ## What is in this repository
@@ -126,16 +123,11 @@ This runs:
 
 ## Citation
 
-Use [`CITATION.cff`](CITATION.cff) as a template. Replace the placeholder author metadata before public release.
+Use [`CITATION.cff`](CITATION.cff) as a template. 
 
 ## License
 
 The license is intentionally marked as pending because author/publication decisions are not yet finalized. See [`LICENSE.md`](LICENSE.md).
-
-Recommended default, once approved by the author(s):
-
-- manuscript and documentation: **CC BY 4.0**,
-- code: **MIT** or **Apache-2.0**.
 
 ## Disclaimer
 
