@@ -1,6 +1,6 @@
 SHELL := /bin/bash
 
-.PHONY: paper clean check smoke pycheck citation-check placeholder-check
+.PHONY: paper clean check smoke pycheck citation-check placeholder-check experiment-01 experiment-01-quick experiment-01-dry-run
 
 paper:
 	cd paper && pdflatex -interaction=nonstopmode main.tex && (bibtex8 main || bibtex main) && pdflatex -interaction=nonstopmode main.tex && pdflatex -interaction=nonstopmode main.tex
@@ -20,5 +20,14 @@ citation-check:
 
 smoke:
 	bash scripts/run_smoke_tests.sh
+
+experiment-01-dry-run:
+	python scripts/run_experiment_01_prediction_lift.py --config configs/experiment_01_prediction_lift.json --out results/experiment_01 --dry-run
+
+experiment-01-quick:
+	python scripts/run_experiment_01_prediction_lift.py --config configs/experiment_01_prediction_lift.json --out results/experiment_01_quick --quick
+
+experiment-01:
+	python scripts/run_experiment_01_prediction_lift.py --config configs/experiment_01_prediction_lift.json --out results/experiment_01
 
 check: pycheck placeholder-check citation-check smoke
