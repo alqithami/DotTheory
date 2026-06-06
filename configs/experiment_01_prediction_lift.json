@@ -1,0 +1,51 @@
+{
+  "description": "Experiment 1 for Dot-Trace Theory: held-out prediction lift in a synthetic social-memory system.",
+  "base": {
+    "agents": 12,
+    "steps": 90,
+    "interactions_per_step": 12,
+    "seeds": 20,
+    "base_seed": 1000,
+    "top_k": 5,
+    "train_fraction": 0.7,
+    "p_counter": 0.05,
+    "p_transmit": 0.08,
+    "p_institutional": 0.05,
+    "beta_z": 1.25,
+    "epochs": 1600,
+    "learning_rate": 0.16,
+    "l2": 0.001
+  },
+  "quick_overrides": {
+    "agents": 6,
+    "steps": 20,
+    "interactions_per_step": 6,
+    "seeds": 2,
+    "base_seed": 1000,
+    "epochs": 80
+  },
+  "conditions": {
+    "full": {},
+    "no_transmission": {
+      "no_transmission": true
+    },
+    "no_topology_feedback": {
+      "no_topology_feedback": true
+    },
+    "no_mutation": {
+      "no_mutation": true
+    },
+    "no_correction": {
+      "no_correction": true
+    }
+  },
+  "outputs": {
+    "summary": "results/experiment_01/experiment_01_summary.json",
+    "paper_table": "results/experiment_01/paper_results_table.csv",
+    "figures": [
+      "results/experiment_01/figures/prediction_lift_full.svg",
+      "results/experiment_01/figures/negative_control_degradation.svg",
+      "results/experiment_01/figures/ablation_lift_by_condition.svg"
+    ]
+  }
+}
