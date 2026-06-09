@@ -1,5 +1,9 @@
 # Dot-Trace Theory
 
+[![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![arXiv](https://img.shields.io/badge/arXiv-xxxx.XXXX-b31b1b.svg)](https://arxiv.org/abs/)
+
 **Dot-Trace Theory: A Formal Theory of Agentic Social Memory** is a theory of memory-sensitive social multi-agent systems. It proposes that persistent, socially accessible interaction traces — called **dots** — mediate the co-evolution of agent behavior, memory structure, and social topology.
 
 This repository contains the foundation manuscript, LaTeX source, BibTeX bibliography, simulator prototypes, validation runners, experiment scaffolding, example outputs, and review/planning documents.
