@@ -1,10 +1,10 @@
 [project]
 name = "dot-trace-theory"
 version = "0.44.0"
-description = "Dot-Trace Theory foundation manuscript, reference simulators, and synthetic validation scripts"
+description = "Dot-Trace Theory reference simulators, synthetic validation scripts, and reproducibility companion materials"
 requires-python = ">=3.9"
 authors = [
-  {name = "Alqithami author metadata to be confirmed"}
+  {name = "alqithami"}
 ]
 readme = "README.md"
 license = {text = "License pending"}
