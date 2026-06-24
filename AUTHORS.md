@@ -1,27 +1,27 @@
 # Authors and Contributors
 
-This file records authorship and contributor metadata for the Dot-Trace Theory manuscript and repository.
+This file records authorship and contributor metadata for the Dot-Trace Theory manuscript and repository companion.
 
-## Primary author metadata
-
-The primary author metadata must be confirmed before formal publication, preprint release, DOI registration, or journal submission.
-
-Current repository owner:
+## Repository maintainer
 
 ```text
 GitHub owner: alqithami
 Repository: https://github.com/alqithami/DotTheory
 ```
 
-Publication metadata to confirm:
+The GitHub owner alias is used in repository metadata until formal publication metadata is supplied.
+
+## Formal publication metadata
+
+Before preprint release, DOI archival, or journal submission, replace the maintainer alias with the final publication metadata.
 
 | Field | Status |
 |---|---|
-| Full author name | To be confirmed by author |
-| Affiliation | To be confirmed by author |
-| Corresponding author email | To be confirmed by author |
-| ORCID | Optional; to be confirmed by author |
-| Contributor roles | Optional; to be confirmed by author |
+| Full author name | Author decision required |
+| Affiliation | Author decision required |
+| Corresponding author email | Author decision required |
+| ORCID | Optional; author decision required |
+| Contributor roles | Optional; author decision required |
 
 ## Suggested CRediT role categories
 
