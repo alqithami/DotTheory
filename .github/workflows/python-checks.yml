@@ -1,0 +1,35 @@
+name: Python checks
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+  workflow_dispatch:
+
+jobs:
+  python-checks:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Python syntax check
+        run: python -m py_compile scripts/*.py tests/*.py
+
+      - name: Placeholder check
+        run: python scripts/check_placeholders.py paper/main.tex
+
+      - name: Citation-key consistency check
+        run: python scripts/check_citations.py paper/main.tex paper/references.bib
+
+      - name: Simulator smoke tests
+        run: bash scripts/run_smoke_tests.sh
+
+      - name: Experiment 1 dry run
+        run: python scripts/run_experiment_01_prediction_lift.py --config configs/experiment_01_prediction_lift.json --out results/experiment_01_ci --dry-run
