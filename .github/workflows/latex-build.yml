@@ -20,7 +20,18 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
 
+      - name: Check whether manuscript source is present
+        id: paper-source
+        run: |
+          if [ -f paper/main.tex ]; then
+            echo "present=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "present=false" >> "$GITHUB_OUTPUT"
+            echo "paper/main.tex is not present. Skipping LaTeX build."
+          fi
+
       - name: Compile LaTeX manuscript
+        if: steps.paper-source.outputs.present == 'true'
         uses: xu-cheng/latex-action@v3
         with:
           root_file: main.tex
@@ -29,6 +40,7 @@ jobs:
           args: -pdf -interaction=nonstopmode -halt-on-error
 
       - name: Upload compiled PDF artifact
+        if: steps.paper-source.outputs.present == 'true'
         uses: actions/upload-artifact@v4
         with:
           name: dot-trace-theory-pdf
