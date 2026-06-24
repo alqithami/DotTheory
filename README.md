@@ -2,11 +2,11 @@
 
 **Dot-Trace Theory: A Formal Theory of Agentic Social Memory** is a theory of memory-sensitive social multi-agent systems. It proposes that persistent, socially accessible interaction traces — called **dots** — mediate the co-evolution of agent behavior, memory structure, and social topology.
 
-This repository contains the foundation manuscript, LaTeX source, BibTeX bibliography, simulator prototypes, validation runners, experiment scaffolding, example outputs, and review/planning documents.
+This repository is the code, experiment, documentation, and reproducibility companion for the Dot-Trace Theory manuscript. It contains reference simulator prototypes, validation runners, Experiment 1 scaffolding, reproducibility documentation, and publication-support files. The manuscript source can also be stored under `paper/` when the repository is used as a full source archive.
 
 ## Repository status
 
-This repository is prepared as a comprehensive manuscript companion and reproducibility package. Before formal publication, complete the author metadata, license choice, and venue-specific statements listed in [`docs/publication_metadata_to_complete.md`](docs/publication_metadata_to_complete.md).
+This repository is prepared as a comprehensive reproducibility companion. Before formal publication, complete the author metadata, license choice, and venue-specific statements listed in [`docs/publication_metadata_to_complete.md`](docs/publication_metadata_to_complete.md).
 
 The computational scripts are **reference prototypes**. They support theory development, reproducibility checks, and synthetic validation design. They are not empirical evidence about real-world social systems.
 
@@ -14,7 +14,7 @@ The computational scripts are **reference prototypes**. They support theory deve
 
 ```text
 .
-├── paper/                      # Canonical LaTeX source, BibTeX file, compiled PDF
+├── paper/                      # Reserved for manuscript source when archived here
 ├── scripts/                    # Reference simulators, validation runners, experiment runner
 ├── configs/                    # Reproducible experiment configurations
 ├── examples/                   # Example output files from simulator/validation runs
@@ -57,29 +57,22 @@ The theory is organized around a theorem spine:
 5. Integrated mixed-mechanism dynamics
 6. Recursive topology-feedback stability
 
-## Build the paper locally
+## Paper source
 
-From the repository root:
+The `paper/` directory is reserved for manuscript source files. If the repository is used as the full source archive, add:
+
+```text
+paper/main.tex
+paper/references.bib
+```
+
+Then build the manuscript with:
 
 ```bash
 make paper
 ```
 
-Or manually:
-
-```bash
-cd paper
-pdflatex -interaction=nonstopmode main.tex
-bibtex8 main || bibtex main
-pdflatex -interaction=nonstopmode main.tex
-pdflatex -interaction=nonstopmode main.tex
-```
-
-The included compiled check PDF is:
-
-```text
-paper/dot_trace_theory_foundation_v0.43.pdf
-```
+If those files are not present, this repository should be cited as the **code and reproducibility companion**, not as the canonical manuscript-source archive. See [`paper/README.md`](paper/README.md) for details.
 
 ## Run simulator smoke tests
 
@@ -157,8 +150,8 @@ This runs:
 
 - Python syntax checks,
 - lightweight repository tests,
-- placeholder/draft-language scan on the paper source,
-- citation-key consistency check,
+- placeholder/draft-language scan on the paper source, if manuscript source is present,
+- citation-key consistency check, if manuscript source and bibliography are present,
 - simulator smoke tests.
 
 ## Publication and reproducibility documents
@@ -174,8 +167,7 @@ This runs:
 
 | File | Purpose |
 |---|---|
-| [`paper/main.tex`](paper/main.tex) | Canonical LaTeX manuscript source |
-| [`paper/references.bib`](paper/references.bib) | BibTeX bibliography |
+| [`paper/README.md`](paper/README.md) | Manuscript-source handling note |
 | [`scripts/dot_trace_minimal_simulator_v01.py`](scripts/dot_trace_minimal_simulator_v01.py) | Minimal dot-field simulator |
 | [`scripts/dot_trace_predictive_simulator_v02.py`](scripts/dot_trace_predictive_simulator_v02.py) | Predictive simulator with action-level forecasts |
 | [`scripts/dot_trace_validation_runner_v01.py`](scripts/dot_trace_validation_runner_v01.py) | Condition-grid validation runner |
