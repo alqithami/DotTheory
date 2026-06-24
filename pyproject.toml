@@ -1,19 +1,24 @@
 [project]
 name = "dot-trace-theory"
-version = "0.43.0"
-description = "Dot-Trace Theory foundation manuscript, simulators, and validation scripts"
+version = "0.44.0"
+description = "Dot-Trace Theory foundation manuscript, reference simulators, and synthetic validation scripts"
 requires-python = ">=3.9"
 authors = [
-  {name = "Author Name", email = "email@example.com"}
+  {name = "Alqithami author metadata to be confirmed"}
 ]
 readme = "README.md"
 license = {text = "License pending"}
-keywords = ["multi-agent systems", "memory", "social networks", "collective memory", "agentic social memory"]
+keywords = ["multi-agent systems", "memory", "social networks", "collective memory", "agentic social memory", "dynamic graphs"]
 classifiers = [
   "Programming Language :: Python :: 3",
   "Topic :: Scientific/Engineering",
   "Topic :: Sociology",
+  "Intended Audience :: Science/Research",
 ]
+
+[project.urls]
+Repository = "https://github.com/alqithami/DotTheory"
+Documentation = "https://github.com/alqithami/DotTheory/tree/main/docs"
 
 [tool.black]
 line-length = 100
