@@ -1,16 +1,12 @@
 # Dot-Trace Theory
 
-[![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![arXiv](https://img.shields.io/badge/arXiv-xxxx.XXXX-b31b1b.svg)](https://arxiv.org/abs/)
-
 **Dot-Trace Theory: A Formal Theory of Agentic Social Memory** is a theory of memory-sensitive social multi-agent systems. It proposes that persistent, socially accessible interaction traces — called **dots** — mediate the co-evolution of agent behavior, memory structure, and social topology.
 
 This repository contains the foundation manuscript, LaTeX source, BibTeX bibliography, simulator prototypes, validation runners, experiment scaffolding, example outputs, and review/planning documents.
 
 ## Repository status
 
-This repository is prepared as a comprehensive foundation package. Before public release or formal publication, complete the author metadata, license choice, and venue-specific statements listed in [`docs/publication_metadata_to_complete.md`](docs/publication_metadata_to_complete.md).
+This repository is prepared as a comprehensive manuscript companion and reproducibility package. Before formal publication, complete the author metadata, license choice, and venue-specific statements listed in [`docs/publication_metadata_to_complete.md`](docs/publication_metadata_to_complete.md).
 
 The computational scripts are **reference prototypes**. They support theory development, reproducibility checks, and synthetic validation design. They are not empirical evidence about real-world social systems.
 
@@ -87,7 +83,7 @@ paper/dot_trace_theory_foundation_v0.43.pdf
 
 ## Run simulator smoke tests
 
-The scripts are dependency-free Python 3 prototypes.
+The scripts are dependency-free Python 3 prototypes and require Python 3.9 or newer.
 
 ```bash
 make smoke
@@ -159,10 +155,20 @@ make check
 
 This runs:
 
+- Python syntax checks,
+- lightweight repository tests,
 - placeholder/draft-language scan on the paper source,
 - citation-key consistency check,
-- Python syntax checks,
 - simulator smoke tests.
+
+## Publication and reproducibility documents
+
+| File | Purpose |
+|---|---|
+| [`docs/reproducibility_statement.md`](docs/reproducibility_statement.md) | Build, environment, and reproducibility notes |
+| [`docs/code_availability_statement.md`](docs/code_availability_statement.md) | Suggested manuscript code-availability wording |
+| [`docs/repository_submission_checklist.md`](docs/repository_submission_checklist.md) | Pre-submission repository checklist |
+| [`docs/publication_metadata_to_complete.md`](docs/publication_metadata_to_complete.md) | Author, license, and venue metadata still requiring confirmation |
 
 ## Main files
 
@@ -183,7 +189,7 @@ This runs:
 
 ## Citation
 
-Use [`CITATION.cff`](CITATION.cff) as a template.
+Use [`CITATION.cff`](CITATION.cff) as the repository citation template. Confirm the author metadata before formal publication or DOI archival.
 
 ## License
 
