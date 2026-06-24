@@ -1,19 +1,27 @@
 cff-version: 1.2.0
-message: "If you use this repository, please cite the Dot-Trace Theory manuscript. Replace placeholder author metadata before public release."
+message: "If you use this repository, please cite the Dot-Trace Theory manuscript and repository. Confirm author metadata before formal publication."
 title: "Dot-Trace Theory: A Formal Theory of Agentic Social Memory"
-version: "0.43.0"
-date-released: "2026-05-18"
+version: "0.44.0"
+date-released: "2026-06-24"
 authors:
-  - family-names: "Author"
-    given-names: "Name"
-    affiliation: "Affiliation to be added"
-abstract: "Dot-Trace Theory proposes that persistent, socially accessible interaction traces mediate the co-evolution of agent behavior, memory structure, and social topology."
-repository-code: "https://github.com/<owner>/<repository>"
+  - family-names: "Alqithami"
+    given-names: "Author details to be confirmed"
+abstract: "Dot-Trace Theory proposes that persistent, socially accessible interaction traces mediate the co-evolution of agent behavior, memory structure, and social topology. This repository contains the foundation manuscript, reproducible synthetic experiment scaffolding, reference simulators, validation runners, and documentation."
+repository-code: "https://github.com/alqithami/DotTheory"
+url: "https://github.com/alqithami/DotTheory"
 license: "LicenseRef-Pending"
+keywords:
+  - "multi-agent systems"
+  - "memory"
+  - "social networks"
+  - "collective memory"
+  - "agentic social memory"
+  - "dynamic graphs"
 preferred-citation:
   type: manuscript
   title: "Dot-Trace Theory: A Formal Theory of Agentic Social Memory"
   authors:
-    - family-names: "Author"
-      given-names: "Name"
+    - family-names: "Alqithami"
+      given-names: "Author details to be confirmed"
   year: 2026
+  url: "https://github.com/alqithami/DotTheory"
