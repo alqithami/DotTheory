@@ -20,8 +20,9 @@ def test_required_files_exist() -> None:
         "Makefile",
         "CITATION.cff",
         "LICENSE.md",
-        "paper/main.tex",
-        "paper/references.bib",
+        "AUTHORS.md",
+        "SECURITY.md",
+        "CONTRIBUTING.md",
         "scripts/dot_trace_minimal_simulator_v01.py",
         "scripts/dot_trace_predictive_simulator_v02.py",
         "scripts/dot_trace_trainable_validation_runner_v01.py",
@@ -31,6 +32,7 @@ def test_required_files_exist() -> None:
         "docs/reproducibility_statement.md",
         "docs/code_availability_statement.md",
         "docs/repository_submission_checklist.md",
+        "docs/publication_metadata_to_complete.md",
     ]
     missing = [path for path in required if not (REPO_ROOT / path).exists()]
     assert not missing, "Missing required repository files: " + ", ".join(missing)
